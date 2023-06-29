@@ -7,7 +7,7 @@ import {
   RouterProvider,
   Navigate,
 } from "react-router-dom";
-import SignIn from './pages/SignIn/SignIn';
+import SignIn from './pages/Signin/SignIn';
 import Register from './pages/Register/Register';
 function App() {
   const { currentUser } = useContext(AuthContext);

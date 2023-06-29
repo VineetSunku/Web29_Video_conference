@@ -10,7 +10,7 @@ import {
 } from "@mui/icons-material";
 import { auth, provider,Fprovider } from "../../firebase";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import { AuthContext } from "./../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 import Navbar from "../../Components/Navbar/Navbar";
 
 const Login = () => {
